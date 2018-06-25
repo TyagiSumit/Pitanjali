@@ -55,11 +55,10 @@ public class AddProduct extends AppCompatActivity {
                     quantity.setText("");
                     id.setText("");
                     rate.setText("");
-                    products.add(new Products(Integer.parseInt(Id),Name,Integer.parseInt(Quantity),Double.parseDouble(Rate)));
-                    /*products.add(new Products(1,"keshkanti",100,20.0));
-                    products.add(new Products(11,"keshkantia",1001,200.0));
+                   // products.add(new Products(Integer.parseInt(Id),Name,Integer.parseInt(Quantity),Double.parseDouble(Rate)));
+                    products.add(new Products(1,"kesh",100,20.0));
+                    products.add(new Products(11,"kanti",200,100.0));
                     products.add(new Products(110,"keshkanti",10,20.2));
-                    */
                     Toast.makeText(AddProduct.this, "|Item "+Name+" | Id: "+Id+"| is added to stock", Toast.LENGTH_SHORT).show();
 
                 }
